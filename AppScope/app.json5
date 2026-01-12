@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.wristvault",
+    "bundleName": "com.hmosdemos.wearable.wrist_vault",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

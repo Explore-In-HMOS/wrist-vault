@@ -62,7 +62,6 @@ export struct PasswordListView {
                   .padding({ left: 10, right: 10 })
               }
 
-              // Password row (inside the same Column)
               if (this.expandedId === item.id) {
                 Text(item.password)
                   .fontSize(13)
@@ -80,7 +79,6 @@ export struct PasswordListView {
             .backgroundColor('#2a2a2a')
             .borderRadius(16)
             .onClick(() => {
-              // toggle reveal; clicking the card shows/hides password
               this.expandedId = (this.expandedId === item.id) ? '' : item.id;
             })
           }
